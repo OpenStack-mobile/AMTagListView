@@ -11,7 +11,8 @@
 		65019AA01B60EF2400704258 /* AMTagListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65019A9C1B60EF2400704258 /* AMTagListView.m */; };
 		65019AA11B60EF2400704258 /* AMTagView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65019A9D1B60EF2400704258 /* AMTagView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65019AA21B60EF2400704258 /* AMTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65019A9E1B60EF2400704258 /* AMTagView.m */; };
-		65BECEEA1B60EF000081874E /* AMTagListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BECEE91B60EF000081874E /* AMTagListView.h */; };
+		65BECEEA1B60EF000081874E /* AMTagListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BECEE91B60EF000081874E /* AMTagListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EB1CE721D3D3B3100A91571 /* AMTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB1CE711D3D3B3100A91571 /* AMTag.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		65BECEE41B60EF000081874E /* AMTagListView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMTagListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BECEE81B60EF000081874E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65BECEE91B60EF000081874E /* AMTagListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMTagListView.h; sourceTree = "<group>"; };
+		6EB1CE711D3D3B3100A91571 /* AMTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMTag.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		65019A9A1B60EF2400704258 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				6EB1CE711D3D3B3100A91571 /* AMTag.h */,
 				65019A9B1B60EF2400704258 /* AMTagListView.h */,
 				65019A9C1B60EF2400704258 /* AMTagListView.m */,
 				65019A9D1B60EF2400704258 /* AMTagView.h */,
@@ -88,8 +91,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				65019A9F1B60EF2400704258 /* AMTagListView.h in Headers */,
-				65019AA11B60EF2400704258 /* AMTagView.h in Headers */,
 				65BECEEA1B60EF000081874E /* AMTagListView.h in Headers */,
+				65019AA11B60EF2400704258 /* AMTagView.h in Headers */,
+				6EB1CE721D3D3B3100A91571 /* AMTag.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
