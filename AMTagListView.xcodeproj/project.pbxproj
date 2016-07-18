@@ -11,7 +11,6 @@
 		65019AA01B60EF2400704258 /* AMTagListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65019A9C1B60EF2400704258 /* AMTagListView.m */; };
 		65019AA11B60EF2400704258 /* AMTagView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65019A9D1B60EF2400704258 /* AMTagView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65019AA21B60EF2400704258 /* AMTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65019A9E1B60EF2400704258 /* AMTagView.m */; };
-		65BECEEA1B60EF000081874E /* AMTagListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BECEE91B60EF000081874E /* AMTagListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EB1CE721D3D3B3100A91571 /* AMTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB1CE711D3D3B3100A91571 /* AMTag.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -91,7 +90,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				65019A9F1B60EF2400704258 /* AMTagListView.h in Headers */,
-				65BECEEA1B60EF000081874E /* AMTagListView.h in Headers */,
 				65019AA11B60EF2400704258 /* AMTagView.h in Headers */,
 				6EB1CE721D3D3B3100A91571 /* AMTag.h in Headers */,
 			);
